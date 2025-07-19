@@ -1,24 +1,18 @@
 import java.util.Scanner;
 
-public class four {
+public class five {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the value of n ");
         int n = sc.nextInt();
         sc.close();
-        int temp = n;
 
-        int rev = 0;
-
-        while (n != 0) {
-
-            int ld = n % 10;
-            rev *= 10;
-            rev += ld;
-            n /= 10;
+        long fact = 1;
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+            System.out.println(fact);
         }
-        System.out.println(rev + temp);
+        // System.out.println(fact);
     }
-
 }
