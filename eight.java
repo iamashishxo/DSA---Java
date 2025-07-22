@@ -25,14 +25,14 @@ public class eight {
         }
         System.out.println("Second largest is " + secondMax);
 
-        // int thirdMax = Integer.MIN_VALUE;
-        // // second max
-        // for (int i = 0; i < arr.length; i++) {
-        // if (thirdMax < arr[i] && arr[i] != max && arr[i] != secondMax) {
-        // thirdMax = arr[i];
-        // }
-        // }
-        // System.out.println("Third largest is " + thirdMax);
+        int thirdMax = Integer.MIN_VALUE;
+        // second max
+        for (int i = 0; i < arr.length; i++) {
+            if (thirdMax < arr[i] && arr[i] != max && arr[i] != secondMax) {
+                thirdMax = arr[i];
+            }
+        }
+        System.out.println("Third largest is " + thirdMax);
 
         // int max = Integer.MIN_VALUE;
         // int secondMax = Integer.MIN_VALUE;
