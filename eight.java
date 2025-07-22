@@ -7,14 +7,14 @@ public class eight {
         System.out.println(arr1[3]);
 
         // // find largest number
-        // int max = Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE;
 
-        // for (int i = 0; i < arr.length; i++) {
-        // if (max < arr[i]) {
-        // max = arr[i];
-        // }
-        // }
-        // System.out.println("largest is " + max);
+        for (int i = 0; i < arr.length; i++) {
+            if (max < arr[i]) {
+                max = arr[i];
+            }
+        }
+        System.out.println("largest is " + max);
 
         // int secondMax = Integer.MIN_VALUE;
         // // second max
