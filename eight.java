@@ -16,14 +16,14 @@ public class eight {
         }
         System.out.println("largest is " + max);
 
-        // int secondMax = Integer.MIN_VALUE;
-        // // second max
-        // for (int i = 0; i < arr.length; i++) {
-        // if (secondMax < arr[i] && arr[i] != max) {
-        // secondMax = arr[i];
-        // }
-        // }
-        // System.out.println("Second largest is " + secondMax);
+        int secondMax = Integer.MIN_VALUE;
+        // second max
+        for (int i = 0; i < arr.length; i++) {
+            if (secondMax < arr[i] && arr[i] != max) {
+                secondMax = arr[i];
+            }
+        }
+        System.out.println("Second largest is " + secondMax);
 
         // int thirdMax = Integer.MIN_VALUE;
         // // second max
